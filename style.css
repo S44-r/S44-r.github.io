@@ -32,7 +32,7 @@ body {
 /* ---------- main section ---------- */
 #main {
   width: 100%;
-  height: 50em;
+  padding: 5em 0;
   backdrop-filter: blur(1px);
   backdrop-filter: contrast(250px);
   position: relative;
@@ -323,9 +323,6 @@ footer .social_media_icons a i{
 }
 /* ---------- Media Query ---------- */
 @media (max-width: 1120px) {
-  #main {
-    height: 45em;
-  }
   #main .user_img img {
     width: 25em;
     height: 25em;
