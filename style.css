@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: var(--secondary-font);
   color: var(--color);
+  overflow-x: hidden;
 }
 :root {
   --bg: #252a34;
